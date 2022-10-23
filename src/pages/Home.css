@@ -2,6 +2,9 @@
   width: 100%;
   height: 100vh;
 }
+.map_btn_mobile{
+  display: none;
+}
 
 .header {
   position: fixed;
@@ -72,12 +75,15 @@
 @media (min-width : 768px) {
   .card_container {
     grid-template-columns: repeat(2, 1fr);
+
+
   }
 }
 
 @media (min-width : 960px) {
   .card_container {
     grid-template-columns: repeat(3, 1fr);
+
   }
 }
 
@@ -86,3 +92,39 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+@media (max-width : 768px) {
+  .card_container {
+  padding: 20px;
+  }
+  .footer {
+    display: none;
+  }
+  .map_btn {
+    display: none;
+  }
+  .sticky_header {
+    top: 70px;
+  }
+  .map_btn_mobile {
+    position: fixed;
+    bottom: 30px;
+    text-align: center;
+    padding: 15px 25px;
+    color: white;
+    background-color: var(--dark);
+    border-radius: 30px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 20;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+}
+
+

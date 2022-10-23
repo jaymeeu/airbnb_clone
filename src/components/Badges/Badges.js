@@ -13,8 +13,8 @@ export default function Badges({ onClick, active }) {
   const breakpoint = {
     // when window width is >= 320px
     320: {
-      slidesPerView: 3,
-      slidesPerGroup : 3,
+      slidesPerView: 4,
+      slidesPerGroup : 4,
       spaceBetween: 20
     },
     520: {

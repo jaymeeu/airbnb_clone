@@ -101,19 +101,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  /* .badge_cont {
-    display: block;
+    .badge_cont {
+        padding: 0 10px;
   }
-  ::-webkit-scrollbar {
-    background: transparent; 
-    height: 5px;
-    background-color: rgb(197, 226, 252);
-    border-radius: 20px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: var(--main);
-    border-radius: 20px;
-    height: 3px;
-  } */
 }

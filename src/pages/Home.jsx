@@ -74,12 +74,30 @@ const Home = () => {
                     showMap ?
                         <>
                             <span style={{ fontSize: '13px', fontWeight: '500' }}>Show list</span>
-                            <IoMap color='white' />
+                            <FaListUl color='white' />
                         </>
                         :
                         <>
                             <span style={{ fontSize: '13px', fontWeight: '500' }}>Show map</span>
+                            <IoMap color='white' />
+
+                        </>
+                }
+            </div>
+            <div className='map_btn_mobile'
+                onClick={() => setshowMap(!showMap)}
+            >
+                {
+                    showMap ?
+                        <>
+                            <span style={{ fontSize: '13px', fontWeight: '500' }}>List</span>
                             <FaListUl color='white' />
+                        </>
+                        :
+                        <>
+                            <span style={{ fontSize: '13px', fontWeight: '500' }}>Map</span>
+                            <IoMap color='white' />
+
                         </>
                 }
             </div>
