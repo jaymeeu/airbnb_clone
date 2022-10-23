@@ -1,0 +1,80 @@
+.card {
+  /* width: 100%; */
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.main_cont_card .swiper {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.main_cont_card .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 100% !important;
+  height: 100%;
+}
+
+.main_cont_card .swiper-slide img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+.imagesv2 {
+  width: 100%;
+  height: 170px;
+}
+.main_cont_card .swiper-pagination-bullet{
+  background: white !important;
+  opacity: 0.5 !important;
+  width: 6px !important;
+  height: 6px !important;
+}
+.main_cont_card .swiper-pagination-bullet-active{
+  background: white !important;
+  opacity: 1 !important;
+}
+
+.place_name{
+  font-weight: 400;
+  font-size: 15px;
+}
+.stars{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: var(--dark-gray);
+  font-weight: 300;
+  font-size: 15px;
+}
+.greyer{
+  color: #717171;
+  font-size: 15px;
+  margin-top: 3px;
+}
+.price{
+  color: var(--dark);
+  margin-top: 6px;
+  font-size: 15px;
+    line-height: 19px;
+  font-weight: 400;
+}
+.price span{
+  font-weight: 300;
+}
+.heart{
+  position: absolute;
+   right :  15px;
+   top: 15px;
+   z-index : 2 ;
+   cursor: pointer;
+}
+.heart:hover{
+  transform: scale(1.07);
+}

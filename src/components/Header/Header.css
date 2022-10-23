@@ -1,0 +1,75 @@
+.header_container {
+    border-bottom: 1px solid var(--gray);
+    width: 100%;
+    height: 80px;
+    padding: 0 80px;
+    background-color: white;
+}
+
+.logo_image {
+    width: 100px;
+}
+
+.center_div {
+    padding: 7px;
+    padding-left: 17px;
+    border-radius: 30px;
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
+    border: 1px solid var(--gray);
+    box-shadow: 0px 1px 7px rgba(235, 235, 235, 0.94);
+    -webkit-box-shadow: 0px 1px 7px rgba(235, 235, 235, 0.94);
+    -moz-box-shadow: 0px 1px 7px rgba(235, 235, 235, 0.94);
+}
+
+.center_div:hover {
+    box-shadow: 0px 2px 3px rgba(235, 235, 235, 0.94);
+}
+
+.text_filter {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--dark);
+}
+
+.text_filterv2 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 17px;
+}
+
+.cirle_red {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider {
+    height: 24px;
+    width: 1px;
+    background-color: #DDDDDD;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.right_user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+._user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid var(--gray);
+    border-radius: 30px;
+    padding: 5px;
+    padding-left: 10px;
+}
